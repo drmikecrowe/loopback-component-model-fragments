@@ -56,6 +56,14 @@ This component will help you build cleaner, more maintainable Loopback model cod
 
 Note: This component does not enforce any particular structure. Use what works best for you.
 
+## Troubleshooting
+
+If the proper path to component-config.json is not automatically determined, you may override the automatic detection using the `LOOPBACK_SERVER_PATH` environment variable:
+
+```
+  LOOPBACK_SERVER_PATH=$(pwd)/server node server/server.js
+```
+
 ## Contributors
 
 - Heath Morrison (<a href="https://github.com/doublemarked" target="_blank">doublemarked</a>)
